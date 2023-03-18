@@ -1,0 +1,138 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+li {
+    font-size: large;
+    font-weight: bold;
+}
+
+#logo {
+    height: 70px;
+    margin-right: -200px;
+    padding-right: 50px;
+}
+
+#presta {
+    padding-left: 100px;
+}
+
+#fond {
+    background-image: url("./assets/NickoPlatines.png");
+    background-size: cover;
+}
+
+#fonddeux {
+    background-image: url("./assets/CollectifOlympia.png");
+    background-size: cover;
+    background-position-y: -350px;
+}
+
+#fondtrois {
+    background-image: url("./assets/hiunday.jpg");
+    background-size: cover;
+    background-position-y: center;
+}
+
+.legend {
+    color: white;
+    opacity: 75%;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 256px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.button {
+    height: 35px;
+    width: 35px;
+    border-radius: 35px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1850px;
+}
+
+#blue {
+    background-color: #0282E0;
+    border-color: white;
+    margin-bottom: 15px;
+    margin-top: 300px;
+}
+
+#cream {
+    background-color: #909F86;
+    border-color: white;
+    margin-bottom: 15px;
+}
+
+#violet {
+    background-color: #4007F2;
+    border-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.black-body {
+    background-color: black;
+}
+
+#qui {
+    color: #24B500;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: -50px;
+    font-family: 'THE SOLSTICE', sans-serif;
+    text-align: center;
+}
+
+#presentation {
+    color: rgb(228, 228, 228);
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 160px;
+    text-justify: auto;
+    line-height: 1.6;
+}
+
+#bw {
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+#page {
+    display: flex;
+}
+
+#bloc {
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-line{
+        border-left: 2px solid #0026A3;
+        display: inline-block;
+        height: 500px;
+        margin-top: 115px;
+        justify-content: center;
+        margin-left: 175px;
+      }
