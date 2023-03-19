@@ -1,0 +1,664 @@
+/* landing page */
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    display: inline-flex;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+li {
+    font-size: large;
+    font-weight: bold;
+}
+
+#logo {
+    height: 70px;
+    margin-right: -200px;
+    padding-right: 50px;
+}
+
+#presta {
+    padding-left: 100px;
+}
+
+#presta:hover {
+    font-size: larger;
+    transition-duration: 1s;
+}
+
+#quisuisje:hover {
+    font-size: larger;
+    transition-duration: 1s;
+}
+
+#conta:hover {
+    font-size: larger;
+    transition-duration: 1s;
+}
+
+#fond {
+    background-image: url("./assets/NickoPlatines.png");
+    background-size: cover;
+}
+
+#fonddeux {
+    background-image: url("./assets/CollectifOlympia.png");
+    background-size: cover;
+    background-position-y: -350px;
+}
+
+#fondtrois {
+    background-image: url("./assets/hiunday.jpg");
+    background-size: cover;
+    background-position-y: center;
+}
+
+.legend {
+    color: white;
+    opacity: 75%;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 256px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.button {
+    margin-top: 255px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1850px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Qui suis-je ? */
+
+.black-body {
+    background-color: black;
+}
+
+#qui {
+    color: #24B500;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: -50px;
+    font-family: 'THE SOLSTICE', sans-serif;
+    text-align: center;
+}
+
+#presentation {
+    color: rgb(228, 228, 228);
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 160px;
+    text-justify: auto;
+    line-height: 1.6;
+}
+
+#bw {
+    margin-top: 40px;
+    padding-left: 50px;
+}
+
+#page {
+    display: flex;
+}
+
+#bloc {
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-line{
+        border-left: 2px solid #0026A3;
+        display: inline-block;
+        height: 500px;
+        margin-top: 115px;
+        justify-content: center;
+        margin-left: 175px;
+      }
+
+/* Contacts */
+
+#blueNicko {
+    height: 500px;
+    margin-left: 200px;
+    padding-top: 40px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    padding-top: 100px;
+}
+
+.ensemble {
+    display: inline-flex;
+}
+
+.infos {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    padding-top: 85px;
+    line-height: 4.7;
+}
+
+#i1 {
+    height: 65px;
+    width: 65px;
+    padding-bottom: 25px;
+}
+
+#i2 {
+    height: 65px;
+    width: 65px;
+    padding-bottom: 25px;
+}
+
+#i3 {
+    height: 65px;
+    width: 65px;
+    padding-bottom: 25px;
+}
+
+#i4 {
+    height: 65px;
+    width: 65px;
+}
+
+.blue-text {
+    color: #1237B1;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.green-text {
+    color: #24B500;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Prestations */
+
+.blue-line {
+    border: 1px solid #1639ff;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.green-line {
+    border: 1px solid #24B500;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.h2 {
+    color: rgb(228, 228, 228);
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.miss {
+    display: inline-flex;
+    margin-left: 250px;
+}
+
+.img-size {
+    height: 350px;
+}
+
+.img1 {
+    padding-right: 25px;
+    height: 350px;
+}
+
+.img2 {
+    padding-right: 25px;
+    height: 350px;
+}
+
+.img3 {
+    height: 350px;
+}
+
+// Bouton animé
+/*
+   * Animated CSS button
+   * Copyright Alexander Bodin 2019-09-07
+   *
+   * Useage: .class {@import button($button-size, $hue, $sat);}
+   */
+
+  @-webkit-keyframes animateLeft {
+    0% {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+    }
+    100% {
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+  }
+  
+  @keyframes animateLeft {
+    0% {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+    }
+    100% {
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+  }
+  
+  .animated-button1 {
+    background: linear-gradient(-30deg, #0282E0 50%, #002e85 50%);
+    padding: 18px 18px;
+    margin: 12px;
+    display: inline-block;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    overflow: hidden;
+    color: #0011ff;
+    -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  }
+  
+  .animated-button1::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0;
+    -webkit-transition: .2s opacity ease-in-out;
+    transition: .2s opacity ease-in-out;
+  }
+  
+  .animated-button1:hover::before {
+    opacity: 0.2;
+  }
+  
+  .animated-button1 span {
+    position: absolute;
+  }
+  
+  .animated-button1 span:nth-child(1) {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, right top, left top, from(rgba(43, 8, 8, 0)), to(#ffffff));
+    background: linear-gradient(to left, rgba(43, 8, 8, 0), #ffffff);
+    -webkit-animation: 2s animateTop linear infinite;
+            animation: 2s animateTop linear infinite;
+  }
+  
+  @keyframes animateTop {
+    0% {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+  }
+  
+  .animated-button1 span:nth-child(2) {
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 2px;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(43, 8, 8, 0)), to(#ffffff));
+    background: linear-gradient(to top, rgba(43, 8, 8, 0), #ffffff);
+    -webkit-animation: 2s animateRight linear -1s infinite;
+            animation: 2s animateRight linear -1s infinite;
+  }
+  
+  @keyframes animateRight {
+    0% {
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+    }
+  }
+  
+  .animated-button1 span:nth-child(3) {
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(43, 8, 8, 0)), to(#ffffff));
+    background: linear-gradient(to right, rgba(43, 8, 8, 0), #ffffff);
+    -webkit-animation: 2s animateBottom linear infinite;
+            animation: 2s animateBottom linear infinite;
+  }
+  
+  @keyframes animateBottom {
+    0% {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+    100% {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+  }
+  
+  .animated-button1 span:nth-child(4) {
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 2px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(43, 8, 8, 0)), to(#ffffff));
+    background: linear-gradient(to bottom, rgba(43, 8, 8, 0), #ffffff);
+    -webkit-animation: 2s animateLeft linear -1s infinite;
+            animation: 2s animateLeft linear -1s infinite;
+  }
+
+
+//   SECOND 
+//   BOUTON 
+
+@-webkit-keyframes animateLeft {
+    0% {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+    }
+    100% {
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+  }
+  
+  @keyframes animateLeft {
+    0% {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+    }
+    100% {
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+  }
+
+.animated-button2 {
+    background: linear-gradient(-30deg, #909F86 50%, #7b8177 50%);
+    padding: 18px 18px;
+    margin: 12px;
+    display: inline-block;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    overflow: hidden;
+    color: #0011ff;
+    -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  }
+  
+  .animated-button2::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0;
+    -webkit-transition: .2s opacity ease-in-out;
+    transition: .2s opacity ease-in-out;
+  }
+  
+  .animated-button2:hover::before {
+    opacity: 0.2;
+  }
+  
+  .animated-button2 span {
+    position: absolute;
+  }
+  
+  .animated-button2 span:nth-child(1) {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, right top, left top, from(rgba(43, 8, 8, 0)), to(#ffffff));
+    background: linear-gradient(to left, rgba(43, 8, 8, 0), #ffffff);
+    -webkit-animation: 2s animateTop linear infinite;
+            animation: 2s animateTop linear infinite;
+  }
+  
+  @keyframes animateTop {
+    0% {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+  }
+  
+  .animated-button2 span:nth-child(2) {
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 2px;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(43, 8, 8, 0)), to(#ffffff));
+    background: linear-gradient(to top, rgba(43, 8, 8, 0), #ffffff);
+    -webkit-animation: 2s animateRight linear -1s infinite;
+            animation: 2s animateRight linear -1s infinite;
+  }
+  
+  @keyframes animateRight {
+    0% {
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+    }
+  }
+  
+  .animated-button2 span:nth-child(3) {
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(43, 8, 8, 0)), to(#ffffff));
+    background: linear-gradient(to right, rgba(43, 8, 8, 0), #ffffff);
+    -webkit-animation: 2s animateBottom linear infinite;
+            animation: 2s animateBottom linear infinite;
+  }
+  
+  @keyframes animateBottom {
+    0% {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+    100% {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+  }
+  
+  .animated-button2 span:nth-child(4) {
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 2px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(43, 8, 8, 0)), to(#ffffff));
+    background: linear-gradient(to bottom, rgba(43, 8, 8, 0), #ffffff);
+    -webkit-animation: 2s animateLeft linear -1s infinite;
+            animation: 2s animateLeft linear -1s infinite;
+  }
+  
+
+//   TROISIEME
+//   BOUTON
+
+@-webkit-keyframes animateLeft {
+    0% {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+    }
+    100% {
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+  }
+  
+  @keyframes animateLeft {
+    0% {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+    }
+    100% {
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+  }
+
+.animated-button3 {
+    background: linear-gradient(-30deg, #4007F2 50%, #3001bd 50%);
+    padding: 18px 18px;
+    margin: 12px;
+    display: inline-block;
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+    overflow: hidden;
+    color: #0011ff;
+    -webkit-box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  }
+  
+  .animated-button3::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0;
+    -webkit-transition: .2s opacity ease-in-out;
+    transition: .2s opacity ease-in-out;
+  }
+  
+  .animated-button3:hover::before {
+    opacity: 0.2;
+  }
+  
+  .animated-button3 span {
+    position: absolute;
+  }
+  
+  .animated-button3 span:nth-child(1) {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, right top, left top, from(rgba(43, 8, 8, 0)), to(#ffffff));
+    background: linear-gradient(to left, rgba(43, 8, 8, 0), #ffffff);
+    -webkit-animation: 2s animateTop linear infinite;
+            animation: 2s animateTop linear infinite;
+  }
+  
+  @keyframes animateTop {
+    0% {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+    100% {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+  }
+  
+  .animated-button3 span:nth-child(2) {
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 2px;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(43, 8, 8, 0)), to(#ffffff));
+    background: linear-gradient(to top, rgba(43, 8, 8, 0), #ffffff);
+    -webkit-animation: 2s animateRight linear -1s infinite;
+            animation: 2s animateRight linear -1s infinite;
+  }
+  
+  @keyframes animateRight {
+    0% {
+      -webkit-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      -webkit-transform: translateY(-100%);
+              transform: translateY(-100%);
+    }
+  }
+  
+  .animated-button3 span:nth-child(3) {
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(43, 8, 8, 0)), to(#ffffff));
+    background: linear-gradient(to right, rgba(43, 8, 8, 0), #ffffff);
+    -webkit-animation: 2s animateBottom linear infinite;
+            animation: 2s animateBottom linear infinite;
+  }
+  
+  @keyframes animateBottom {
+    0% {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+    }
+    100% {
+      -webkit-transform: translateX(100%);
+              transform: translateX(100%);
+    }
+  }
+  
+  .animated-button3 span:nth-child(4) {
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 2px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(43, 8, 8, 0)), to(#ffffff));
+    background: linear-gradient(to bottom, rgba(43, 8, 8, 0), #ffffff);
+    -webkit-animation: 2s animateLeft linear -1s infinite;
+            animation: 2s animateLeft linear -1s infinite;
+  }
